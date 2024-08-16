@@ -6,9 +6,12 @@ This project simulates a corporate business meeting where digital avatars, repre
 ****Prerequisites
 Before you begin, ensure you have the following installed:
 
-Node.js and npm (or yarn)
-Python 3.x
-OpenAI API Key (for generating avatar responses)
+Node.js and npm (or yarn).
+
+Python 3.x.
+
+OpenAI API Key (for generating avatar responses).
+
 
 ****Setup Instructions
 1. Install Node.js and npm (or yarn)
@@ -18,17 +21,24 @@ Ensure that Node.js and npm (or yarn) are installed on your system. You can down
 Open your terminal or command prompt and run the following commands to create a new React project:
 
 npx create-react-app my-avatar-app
+
 cd my-avatar-app
 
 3. Create a New Python Environment
 It's recommended to run the Flask server in a virtual environment to keep dependencies isolated. Run the following commands:
 
 For Linux/macOS:
+
+
 python3 -m venv my_env
+
 source my_env/bin/activate
 
 For Windows:
+
+
 python3 -m venv my_env
+
 my_env\Scripts\activate
 
 4. Install Flask
@@ -62,6 +72,7 @@ The Flask server will typically run on http://localhost:5000.
 Navigate to your React project directory and start the development server:
 
 cd my-avatar-app
+
 npm start
 
 The React development server will typically run on http://localhost:3000.
@@ -79,6 +90,7 @@ pip install flask-cors
 Then, add the following lines to app.py:
 
 from flask_cors import CORS
+
 CORS(app)
 
 Additional Notes
