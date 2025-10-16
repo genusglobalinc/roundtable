@@ -2,7 +2,13 @@
 
 **roundtable**
 
-**Description:** An innovative Flask and React web application that simulates a dynamic company roundtable meeting. This application leverages the OpenAI API and incorporates Instagram integration to create AI-powered, role-based avatars for an engaging and interactive experience. Explore the future of virtual team collaboration with roundtable.
+**Description:** Transform your virtual team meetings with roundtable, a cutting-edge Flask and React web application. Powered by the OpenAI API and Instagram integration, roundtable creates AI-driven avatars based on different business roles, offering a dynamic and engaging simulation of a corporate roundtable meeting. Elevate your team collaboration experience to new heights with roundtable.
+
+**Key Features:**
+- AI-powered, role-based avatars for immersive virtual meetings
+- Seamless integration with OpenAI API and Instagram for enhanced user interaction
+
+**Tech Stack:** Python, Flask, React, OpenAI API, Instagram Integration.
 
 ![Language](https://img.shields.io/badge/language-Python-blue)
 ![Status](https://img.shields.io/badge/status-Portfolio-Ready-green)
@@ -23,7 +29,7 @@
 ## 📊 Project Statistics
 
 - **Total Files:** 3
-- **Lines of Code:** 335
+- **Lines of Code:** 269
 - **Primary Language:** Python
 - **Development Status:** Portfolio-Ready
 
