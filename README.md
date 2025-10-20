@@ -1,6 +1,6 @@
 # roundtable
 
-The "roundtable" project is a Flask and React web application that simulates corporate roundtable meetings using AI-powered avatars tailored to different business roles. It integrates the OpenAI API and Instagram to create dynamic, role-based conversations, enhancing team collaboration and engagement in virtual meetings. The application is built with Python (Flask), JavaScript (React), and utilizes the OpenAI API for AI functionalities.
+Flask Web Application, React Web Application. Implements AI-powered avatars for role-based conversations. Built with Python (Flask), JavaScript (React). Integrates OpenAI API and Instagram for conversation generation. No database or deployment specified. No user actions or code samples available.
 
 ![Language](https://img.shields.io/badge/language-Python-blue)
 ![Status](https://img.shields.io/badge/status-Portfolio-Ready-green)
