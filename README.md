@@ -80,7 +80,7 @@ roundtable/
 
 - **Language:** Python
 - **Files:** 3
-- **Lines of Code:** 267
+- **Lines of Code:** 346
 - **Status:** Portfolio-Ready
 
 ## 🚧 Future Enhancements
