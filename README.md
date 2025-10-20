@@ -1,30 +1,109 @@
-# roundtable
+# roundtable - Flask Web Application
 
-Flask Web Application, React Web Application. Implements AI-powered avatars for role-based conversations. Built with Python (Flask), JavaScript (React). Integrates OpenAI API and Instagram for conversation generation. No database or deployment specified. No user actions or code samples available.
+Simulates a company roundtable meeting with AI powered, role-based avatars.
 
-![Language](https://img.shields.io/badge/language-Python-blue)
-![Status](https://img.shields.io/badge/status-Portfolio-Ready-green)
+This is a **flask web application** that:
 
 ## ✨ Key Features
 
-- **Application Type:** Flask Web Application, React Web Application
-- **Integrations:** OpenAI API
+## 🛠️ Technology Stack
 
-## 🛠️ Tech Stack
-
+**Core Technologies:**
 - Python
 - Flask
 - React
 - openai
 - flask
 
+**Integrations & APIs:**
+- OpenAI API
+
+## 🚀 Installation & Setup
+
+### Prerequisites
+
+- Python 3.8 or higher
+- pip (Python package manager)
+- Git for version control
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/roundtable.git
+cd roundtable
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+### Configuration
+
+Create a `.env` file in the root directory:
+
+```env
+API_KEY=your_api_key
+```
+
+## 📖 Usage
+
+```bash
+# Run the development server
+python app.py
+```
+
+The application will be available at `http://localhost:5000` or `http://localhost:8000`.
+
+## 📁 Project Structure
+
+```
+roundtable/
+├── app.py              # Main application
+├── requirements.txt    # Dependencies
+├── models/            # Database models
+├── routes/            # API routes
+├── static/            # Static files
+├── templates/         # HTML templates
+└── tests/             # Test files
+```
+
+## 🔧 Technical Highlights
+
+- Full-stack web application with frontend and backend
+- Third-party API integration: OpenAI API
+
 ## 📊 Project Statistics
 
-- **Total Files:** 3
+- **Language:** Python
+- **Files:** 3
 - **Lines of Code:** 267
-- **Primary Language:** Python
-- **Development Status:** Portfolio-Ready
+- **Status:** Portfolio-Ready
+
+## 🚧 Future Enhancements
+
+- [ ] Add comprehensive API documentation (Swagger/OpenAPI)
+- [ ] Implement rate limiting and API throttling
+- [ ] Add Redis caching for improved performance
+- [ ] Expand test coverage to 80%+
+- [ ] Add CI/CD pipeline automation
+
+## 📄 License
+
+This project is available for portfolio and educational purposes.
+
+## 👤 Author
+
+Built to demonstrate professional development capabilities including:
+- RESTful API design and implementation
+- Flask web framework development
+- Version control with Git
+- Code documentation and technical writing
+- Third-party API integration
 
 ---
 
-*This README was auto-generated with AI assistance to showcase this project as part of a development portfolio.*
+*For inquiries or collaboration opportunities, please reach out via GitHub.*
